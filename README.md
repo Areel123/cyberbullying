@@ -1,1 +1,15 @@
-This is my internship project, I have developed a cyberbullying detection model and a Streamlit web app to classify messages as cyberbullying or not and identify the type of cyberbullying. I began by preprocessing the data, including tokenization, stopword removal, stemming, and lemmatization. Using TfidfVectorizer, I transformed the text data into numerical form and trained various machine learning models, selecting LinearSVC for its performance. After fine-tuning the model with GridSearchCV, I achieved high accuracy and F1 scores. I then built a Streamlit app where users can input messages and receive real-time classification results. This project enhanced my skills in natural language processing, machine learning, and web app development, resulting in a tool to help mitigate cyberbullying.
+# Cyberbullying Detection
+
+## Overview
+The **Cyberbullying Detection** web application is designed to classify text messages using a trained machine learning model. It helps users identify whether a message is related to cyberbullying based on different categories, including religion, age, ethnicity, gender, and more.
+
+## Features
+- Input text area for users to enter messages.
+- Predictive classification of messages into defined categories.
+- Clear output displaying the classification result.
+
+## Tech Stack
+- **Python**: Programming language used for the application.
+- **Streamlit**: Framework for building the web app.
+- **Scikit-learn**: Library used for the machine learning model and vectorization.
+- **Pickle**: For loading pre-trained models and vectorizers.
